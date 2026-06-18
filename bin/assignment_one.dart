@@ -1,10 +1,10 @@
 void main() {
-  // Variables
+
   String studentName = "Tanzid Ahsan Nirob";
   int marks = 75;
   String grade;
 
-  // Determine grade using if-else
+
   if (marks >= 80) {
     grade = "A";
   } else if (marks >= 70) {
@@ -15,13 +15,13 @@ void main() {
     grade = "F";
   }
 
-  // Print report
+
   print("Student Report\n");
   print("Name: $studentName");
   print("Marks: $marks");
   print("Grade: $grade\n");
 
-  // Grade description using switch-case
+
   switch (grade) {
     case "A":
       print("Excellent Work");
